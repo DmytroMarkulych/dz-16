@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dz-16"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.596">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createBooking"
+                time="0.841"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+            <testcase
+                name="deleteBooking"
+                time="1.415"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+            <testcase
+                name="putBooking"
+                time="0.993"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+            <testcase
+                name="patchBooking"
+                time="0.713"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+            <testcase
+                name="getBooking"
+                time="0.823"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+            <testcase
+                name="getUpdatedBooking"
+                time="0.811"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+</testsuite>

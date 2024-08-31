@@ -20,6 +20,7 @@ public class RestAssuredTests {
 
         // Authentication request
         Response response = RestAssured.given()
+                .header("Accept", "application/json")
                 .header("Content-Type", "application/json")
                 .body("{\n" +
                         "    \"username\" : \"admin\",\n" +
@@ -54,6 +55,7 @@ public class RestAssuredTests {
         // Send the POST request to create a booking
         Response response = RestAssured
                 .given()
+                .header("Accept", "application/json")
                 .header("Content-Type", "application/json")
                 .body(requestBody)
                 .post("/booking");
@@ -73,6 +75,7 @@ public class RestAssuredTests {
         }
 
         Response response = RestAssured.given()
+                .header("Accept", "application/json")
                 .header("Content-Type", "application/json")
                 .get("/booking/" + bookingId);
 
@@ -140,6 +143,7 @@ public class RestAssuredTests {
         }
 
         Response response = RestAssured.given()
+                .header("Accept", "application/json")
                 .header("Content-Type", "application/json")
                 .get("/booking/" + bookingId);
 
