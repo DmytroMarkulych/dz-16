@@ -35,7 +35,7 @@ public class RestAssuredTests {
         token = jsonPath.getString("token");
 
         System.out.println("Token: " + token);
-        softAssert.assertNotNull(token, "Token should not be null");
+        softAssert.assertNotNull(token, "Token should not be null!");
     }
 
     @Test
@@ -71,7 +71,7 @@ public class RestAssuredTests {
     @Test(dependsOnMethods = "createBooking")
     public void getBooking() {
         if (bookingId <= 0) {
-            throw new IllegalStateException("Booking ID not initialized. Ensure createBooking test runs successfully.");
+            throw new IllegalStateException("Booking ID not initialized. Ensure createBooking test runs successfully!");
         }
 
         Response response = RestAssured.given()
