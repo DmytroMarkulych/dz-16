@@ -4,39 +4,39 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.596">
+           time="5.918">
     <properties></properties>
 
 
 
             <testcase
-                name="createBooking"
-                time="0.841"
+                name="getBooking"
+                time="0.986"
                 classname="org.example.RestAssuredTests">
             </testcase>
             <testcase
                 name="deleteBooking"
-                time="1.415"
+                time="0.754"
                 classname="org.example.RestAssuredTests">
             </testcase>
             <testcase
                 name="putBooking"
-                time="0.993"
+                time="1.849"
                 classname="org.example.RestAssuredTests">
             </testcase>
             <testcase
-                name="patchBooking"
-                time="0.713"
-                classname="org.example.RestAssuredTests">
-            </testcase>
-            <testcase
-                name="getBooking"
-                time="0.823"
+                name="createBooking"
+                time="0.742"
                 classname="org.example.RestAssuredTests">
             </testcase>
             <testcase
                 name="getUpdatedBooking"
-                time="0.811"
+                time="0.716"
+                classname="org.example.RestAssuredTests">
+            </testcase>
+            <testcase
+                name="patchBooking"
+                time="0.871"
                 classname="org.example.RestAssuredTests">
             </testcase>
 </testsuite>
